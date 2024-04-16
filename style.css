@@ -1,3 +1,56 @@
+/*BARRA DE NAVEGAÇÃO*/
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.links{
+    display: flex;
+}
+
+.links button{
+    background-color: #91AD43;
+    color: #fff;
+    width: 100px;
+}
+
+.links a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.links .icones{
+    width: 70px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*BODY*/
+body{font-family: sans-serif;
+display: flex;
+flex-direction: column}
+
+
+
+/*OUR VEGAN STORE*/
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(70, 192, 64);
+    background-image: url(img/Fundo/landing-background.png);
+    height: 60vw;
+}
+
 /*CARDS*/
 
 .cards {
@@ -42,5 +95,4 @@ margin-right: auto;}
 
 .texto img{
     width: 80px;
-    height: 80px;
-}
+    height: 80px;}
