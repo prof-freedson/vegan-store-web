@@ -96,3 +96,52 @@ margin-right: auto;}
 .texto img{
     width: 80px;
     height: 80px;}
+
+
+
+    /*Depoimentos */
+.comentarios{
+display: flex;
+flex-direction: column;
+ align-items: center;
+ padding: 5px 10px;
+width: 200px;
+background-color:bisque ;
+height: 300px;
+justify-content: space-around;
+border: 2px solid bisque;
+padding: 2px 5px;
+text-decoration:dashed ;
+        
+ }
+.depoimentos{
+display: flex;
+justify-content:space-around ;
+margin: 0 100px;
+}
+.titulo{
+display: flex;
+flex-wrap: wrap;
+margin: 0 350px;
+padding: 5px 10px;
+font-size: 12px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+justify-content: space-around;
+}
+img{
+width: 40px;
+height: 40px;
+border-radius: 50px;
+}
+.nome{
+justify-content: space-evenly;
+    }
+    
+ul{
+ padding-inline-start: 0;
+    }
+    
+li{
+        list-style: none;
+    }
+    
