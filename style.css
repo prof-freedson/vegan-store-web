@@ -1,0 +1,46 @@
+/*CARDS*/
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    font-family: sans-serif
+}
+
+.card1 {
+    background-color: rgb(10, 255, 235);
+    width: 25vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    background-color: rgb(76, 159, 34);
+    width: 25vw;
+    text-align: center;
+}
+
+.card3 {
+    background-color: rgb(237, 190, 129);
+    width: 25vw;
+    text-align: center;
+}
+
+.card4 {
+    background-color: rgb(208, 100, 156);
+    width: 25vw;
+    text-align: center
+}
+
+.texto{margin-top: 100px;
+width: 20vw;
+height: 400px;
+margin-left: auto;
+margin-right: auto;}
+
+.texto img{
+    width: 80px;
+    height: 80px;
+}
