@@ -3,7 +3,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 70px;
+    padding: 30px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(14, 36, 126);
+}
+
+.navegador button{
+    background-color: #3a5ddc;
+    color:#fff;
+    width: 100px;
+}
+
+.link a{
+    margin: 0 10px;
+    text-decoration: none;
 }
 
 /*body-J*/
@@ -13,7 +27,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:first baseline ;
+    align-items: baseline ;
     text-align:justify;
     background-color: rgb(255, 255, 255);
     height: 35vw;
