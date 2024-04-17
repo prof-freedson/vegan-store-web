@@ -8,6 +8,7 @@
 
 /*body-J*/
 .introducao{
+    color:rgb(14, 36, 126) ;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,4 +16,10 @@
     text-align:justify;
     background-color: rgb(255, 255, 255);
     height: 70vw;
+}
+
+.button{
+    background-color: #91AD43;
+    color: #fff;
+    width: 100px;
 }
