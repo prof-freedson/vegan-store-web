@@ -18,10 +18,12 @@
     background-color: rgb(255, 255, 255);
     height: 35vw;
     padding: 70px ;
+    font-size: 30px ;
 }
 
 .introducao button{
-    background-color: #0d1697;
+    background-color: #3a5ddc;
     color: #fff;
-    width: 100px;
+    width: 180px;
+    height: 3vw ;
 }
