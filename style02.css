@@ -1,17 +1,19 @@
 /*body-J*/
 .introducao{
-    color:rgb(14, 36, 126) ;
+    color:rgb(14, 36, 126);
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:normal ;
+    align-items:first baseline ;
     text-align:justify;
     background-color: rgb(255, 255, 255);
-    height: 70vw;
+    height: 35vw;
+    padding: 70px ;
 }
 
-.button{
-    background-color: #91AD43;
+.introducao button{
+    background-color: #0d1697;
     color: #fff;
     width: 100px;
 }
