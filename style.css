@@ -190,3 +190,24 @@
 
 
  }
+li{
+        list-style: none;
+    }
+    
+.cartao{
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+
+.cartao i{
+    font-size: 30px;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 50px;
+}
+
+.texto-cartao{
+    margin-left: 20px;
+}
