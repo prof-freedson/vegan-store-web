@@ -1,72 +1,215 @@
  /*BARRA DE NAVEGAÇÃO*/
-.navegacao{
+ .navegacao {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 20px;
+ }
+
+ .logo img {
+     width: 50px;
+     height: 50px;
+ }
+
+ .links {
+     display: flex;
+ }
+
+ .links button {
+     background-color: #91AD43;
+     color: #fff;
+     width: 100px;
+ }
+
+ .links a {
+     margin: 0 10px;
+     text-decoration: none;
+ }
+
+ .links .icones {
+     width: 70px;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ /*BODY*/
+ body {
+     font-family: sans-serif;
+     display: flex;
+     flex-direction: column
+ }
+
+
+
+ /*OUR VEGAN STORE*/
+ .intro {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     background-color: rgb(70, 192, 64);
+     background-image: url(img/landing-background.png);
+     height: 60vw;
+ }
+
+ /*CARDS*/
+
+ .cards {
+     display: flex;
+     flex-direction: row;
+     color: white;
+     justify-content: center;
+     font-family: sans-serif
+ }
+
+ .card1 {
+     background-color: rgb(10, 255, 235);
+     width: 25vw;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .card2 {
+     background-color: rgb(76, 159, 34);
+     width: 25vw;
+     text-align: center;
+ }
+
+ .card3 {
+     background-color: rgb(237, 190, 129);
+     width: 25vw;
+     text-align: center;
+ }
+
+ .card4 {
+     background-color: rgb(208, 100, 156);
+     width: 25vw;
+     text-align: center
+ }
+
+ .texto {
+     margin-top: 100px;
+     width: 20vw;
+     height: 400px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .texto img {
+     width: 80px;
+     height: 80px;
+ }
+
+
+
+ /*Depoimentos */
+ .comentarios {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 5px 10px;
+     width: 250px;
+     background-color: bisque;
+     height: 300px;
+     justify-content: space-around;
+     border: 2px solid bisque;
+     padding: 15px 20px 25px 20px;
+     text-decoration: dashed;
+     border-top-left-radius: 50px;
+     border-bottom-left-radius: 50px;
+     border-bottom-right-radius: 50px;
+
+ }
+
+ .depoimentos {
+     display: flex;
+     justify-content: space-evenly;
+     margin: 0 200px;
+ }
+
+ .titulo {
+     display: flex;
+     flex-wrap: wrap;
+     margin: 0 350px;
+     padding: 5px 10px;
+     font-size: 12px;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     justify-content: space-around;
+ }
+
+ .comentarios img {
+     width: 40px;
+     height: 40px;
+     border-radius: 50px;
+ }
+
+ .nome {
+     justify-content: space-evenly;
+ }
+
+ ul {
+     padding-inline-start: 0;
+ }
+
+ li {
+     list-style: none;
+ }
+
+ .siga-nos .final {
+     
+     width: 40%;
+     background-image: url(/assets/images/background-branco.jpg);
+     object-fit: cover;
+     padding-left: 70px;
+     padding-top: 250px;
+     padding-right: 100px;
+     background-repeat: no-repeat;
+     
+     
+ }
+
+ .siga-nos {
+     margin-top: 50px;
+     justify-content: space-between;
+     display: flex;
+     height: 472px;
+     object-fit: cover;
+     width: 100%;
+    
+     
+
+
+ }
+
+ .siga-nos img {
+    width: 100%;
+
+    
+
+
+ }
+li{
+        list-style: none;
+    }
+    
+.cartao{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    width: 350px;
 }
 
-.logo img{
-    width: 50px;
-    height: 50px;
-}
-
-.links{
-    display: flex;
-}
-
-.links button{
-    background-color: #91AD43;
-    color: #fff;
-    width: 100px;
-}
-
-.links a{
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-.links .icones{
-    width: 70px;
-    display: flex;
-    justify-content: space-around;
-}
-
-/*BODY*/
-body{font-family: sans-serif;
-display: flex;
-flex-direction: column}
-
-
-
-/*OUR VEGAN STORE*/
-.intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: rgb(70, 192, 64);
-    background-image: url(img/landing-background.png);
-    height: 60vw;
-}
-
-/*CARDS*/
-
-.cards {
-    display: flex;
-    flex-direction: row;
+.cartao i{
+    font-size: 30px;
+    padding: 20px;
+    background-color: brown;
     color: white;
-    justify-content: center;
-    font-family: sans-serif
+    border-radius: 50px;
 }
 
-.card1 {
-    background-color: rgb(10, 255, 235);
-    width: 25vw;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+.texto-cartao{
+    margin-left: 20px;
 }
 
 .card2 {
@@ -97,44 +240,58 @@ margin-right: auto;}
     width: 80px;
     height: 80px;}
 
+/*lista-vantagens*/
 
+.lista-vantagens{
+    background-color: #F6EEE1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
 
-    /*Depoimentos */
-.comentarios{
-display: flex;
-flex-direction: column;
- align-items: center;
- padding: 5px 10px;
-width: 250px;
-background-color:bisque ;
-height: 300px;
-justify-content: space-around;
-border: 2px solid bisque;
-padding: 15px 20px 25px 20px;
-text-decoration:dashed ;
-border-top-left-radius: 50px;
-border-bottom-left-radius: 50px ;
-border-bottom-right-radius: 50px;
-        
- }
-.depoimentos{
-display: flex;
-justify-content:space-evenly ;
-margin: 0 200px;
+.fa-solid{
+    color: #fff;
+    border-radius: 100%;
+    background-color: #E4B377;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
-.titulo{
-display: flex;
-flex-wrap: wrap;
-margin: 0 350px;
-padding: 5px 10px;
-font-size: 12px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-justify-content: space-around;
+
+.fa-brands{
+    color: #fff;
+    border-radius: 100%;
+    background-color: #E4B377;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
-.comentarios img{
-width: 40px;
-height: 40px;
-border-radius: 50px;
+.Qualidades{
+    display:flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.vantagem{
+    border-collapse: collapse;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inicio{
+    text-align: center;
+    word-wrap: break-word;
+    width: 50%;
+}
+
+.texto-verde{
+    color: #91AC41;
 }
 .nome{
 justify-content: space-evenly;
