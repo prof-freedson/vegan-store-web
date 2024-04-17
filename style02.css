@@ -1,7 +1,6 @@
 .introducao{
     display: flex;
-    flex-direction:column;
-    justify-content:
-    align-items:baseline
+    flex-direction: column;
+    justify-content: baseline;
     
 }
