@@ -1,6 +1,10 @@
+/*body-J*/
 .introducao{
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
-    
+    justify-content: center;
+    align-items:normal ;
+    text-align:justify;
+    background-color: rgb(255, 255, 255);
+    height: 70vw;
 }
