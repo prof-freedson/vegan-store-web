@@ -96,3 +96,53 @@ margin-right: auto;}
 .texto img{
     width: 80px;
     height: 80px;}
+
+/*lista-vantagens*/
+
+.lista-vantagens{
+    background-color: #F6EEE1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.fa-solid{
+    color: #fff;
+    border-radius: 100%;
+    background-color: #E4B377;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.fa-brands{
+    color: #fff;
+    border-radius: 100%;
+    background-color: #E4B377;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.Qualidades{
+    display:flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.vantagem{
+    border-collapse: collapse;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.inicio{
+    text-align: center;
+    word-wrap: break-word;
+    width: 50%;
+}
