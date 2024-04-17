@@ -3,12 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 70px;
-}
-
-.link a{
-    margin: 0 10px;
-    text-decoration: none;
+    padding: 10px 70px;
 }
 
 /*body-J*/
@@ -27,8 +22,17 @@
 }
 
 .introducao button{
-    background-color: #3a5ddc;
+    background-color: #187adb;
     color: #fff;
     width: 180px;
     height: 3vw ;
+}
+
+.introducao{
+    display: flex;
+    flex-direction:row ;
+    color: rgb(10, 71, 238);
+    justify-content: space-evenly ;
+    font-family: sans-serif;
+    align-items: center;
 }
