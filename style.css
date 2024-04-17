@@ -147,4 +147,29 @@ ul{
 li{
         list-style: none;
     }
+
+    /*cartoes-depoimentos */  
+.cartao{
+    display: flex;
+    align-items: center;
+    width: 350px;
+}
+.cartao i{
+    font-size: 30px;
+    align-items: center;
+    padding: 20px;
+    background-color: brown;
+    color: white;
+    border-radius: 50px;
     
+}
+.cartoes-depoimentos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 300px;
+}
+
+.texto-cartao{
+    margin-left: 20px;
+}
